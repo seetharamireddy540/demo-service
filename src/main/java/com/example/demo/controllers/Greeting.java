@@ -1,4 +1,4 @@
-package com.example.demo.restservice;
+package com.example.demo.controllers;
 
 public class Greeting {
 
