@@ -1,6 +1,6 @@
 package com.example.demo.annotations;
 
-@java.lang.FunctionalInterface
+@FunctionalInterface
 public interface Adder {
-    int add(int a, int b, int k);
+    int add(int a, int b);
 }

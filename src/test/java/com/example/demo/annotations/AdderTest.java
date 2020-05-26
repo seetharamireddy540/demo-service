@@ -8,10 +8,10 @@ class AdderTest {
 
     @Test
     public void testAdder() {
-        Adder adder = (a, b, c) -> {
+        Adder adder = (a, b) -> {
             return a + b;
         };
-        adder.add(2, 3, 5);
+        adder.add(2, 3);
     }
 
 }
