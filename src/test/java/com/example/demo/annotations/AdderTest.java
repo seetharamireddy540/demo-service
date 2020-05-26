@@ -2,8 +2,6 @@ package com.example.demo.annotations;
 
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
-
 class AdderTest {
 
     @Test
