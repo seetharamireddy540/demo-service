@@ -11,5 +11,4 @@ class AdderTest {
         };
         adder.add(2, 3);
     }
-
 }
