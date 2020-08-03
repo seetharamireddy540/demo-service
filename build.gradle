@@ -25,6 +25,7 @@ dependencies {
 
 // https://mvnrepository.com/artifact/args4j/args4j
     implementation group: 'args4j', name: 'args4j', version: '2.33'
+    implementation group: 'com.google.inject', name: 'guice', version: '4.2.3'
 
     developmentOnly 'org.springframework.boot:spring-boot-devtools'
     implementation 'com.fasterxml.jackson.core:jackson-databind:2.9.8'
