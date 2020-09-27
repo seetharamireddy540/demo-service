@@ -42,10 +42,14 @@ dependencies {
     implementation 'org.webjars:stomp-websocket:2.3.3'
     implementation 'org.webjars:bootstrap:3.3.7'
     implementation 'org.webjars:jquery:3.1.1-1'
+        // https://mvnrepository.com/artifact/io.vavr/vavr
+    implementation group: 'io.vavr', name: 'vavr', version: '0.10.3'
 
     testImplementation('org.springframework.boot:spring-boot-starter-test') {
         exclude group: 'org.junit.vintage', module: 'junit-vintage-engine'
     }
+
+    testCompile "com.github.tomakehurst:wiremock-jre8:2.27.0"
 
 }
 
